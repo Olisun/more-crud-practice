@@ -43,11 +43,11 @@ module.exports = function (app) {
       },
       state: {
         type: String,
-        required: [true, 'City is required']
+        required: [true, 'State is required']
       },
       zip: {
         type: String,
-        required: [true, 'zip is required']
+        required: [true, 'Zip is required']
       }
     }
   }, {
